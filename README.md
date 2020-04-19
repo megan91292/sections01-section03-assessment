@@ -564,17 +564,9 @@ for i in range(10):
 ```python
 # write a lambda function called rng that returns the range of a list of numbers
 # Your code here
-list = [1,2,3,4,5]
-lambda x: max(x) - min(x) ,list
+rng = lambda x: max(x) - min(x)
 
 ```
-
-
-
-
-    (<function __main__.<lambda>(x)>, [1, 2, 3, 4, 5])
-
-
 
 
 ```python
@@ -603,11 +595,32 @@ except:
     print("rng is not a lambda function, must be a lambda function to continue")
 ```
 
-    rng is not a lambda function, must be a lambda function to continue
+    rng is a lambda function! great work so far
+    running 10 random tests now
+    --------------------------------------------------
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
+    test passed, ranges are equal
 
 
 
 ```python
 # Convert this notebook to README by running this cell!
 !jupyter nbconvert --to markdown assessment.ipynb && mv assessment.md README.md
+```
+
+    [NbConvertApp] Converting notebook assessment.ipynb to markdown
+    [NbConvertApp] Writing 13705 bytes to assessment.md
+
+
+
+```python
+
 ```
